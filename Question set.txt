@@ -1,0 +1,18 @@
+1. Discuss the following two conditions which are to be satisfied by the DBSCAN clustering algorithm:
+	(i) Maximality condition
+	(ii) Connectivity condition
+
+2. Explain how two parameters, Eps ans MinPts, of DBSCAN algorithm are determined.
+
+3. What are the possible terminating criteria of a decision tree algorithm?
+
+4. What are the causes of model over fitting? How does it solve in Decision tree?
+
+5. Define Dunn's cluster validation index and explain its usefulness in cluster evaluation.
+
+6. Describe the following methods that are used for estimating different evaluation metrics of a classification model:
+	(i) Holdout method
+	(ii) Cross-validation
+	(iii) Bootstrap
+
+7. What are the main purpose of ensembles of classifiers? How does the Adaboost algorithm work? Explain.
