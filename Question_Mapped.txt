@@ -4,7 +4,7 @@
 
 2.(1.c) Explain how two parameters, Eps ans MinPts, of DBSCAN algorithm are determined.
 
-3.(4,b) What are the possible terminating criteria of a decision tree algorithm?
+3.(4.b) What are the possible terminating criteria of a decision tree algorithm?
 
 4.(4.c) What are the causes of model over fitting? How does it solve in Decision tree?
 
