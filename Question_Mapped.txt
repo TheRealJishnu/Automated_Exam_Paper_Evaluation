@@ -2,7 +2,7 @@
 	(i) Maximality condition
 	(ii) Connectivity condition
 
-2.(1.c) Explain how two parameters, Eps ans MinPts, of DBSCAN algorithm are determined.
+2.(3.c) What are the major drawbacks of the a-priori algorithm?
 
 3.(4.b) What are the possible terminating criteria of a decision tree algorithm?
 
