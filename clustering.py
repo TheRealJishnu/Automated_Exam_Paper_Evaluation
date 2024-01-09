@@ -1,26 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec  2 18:52:39 2023
-
-@author: HP-PC
-"""
 import numpy as np
 from sklearn.cluster import DBSCAN
-#from nltk.corpus import stopwords
-#import re
-#from striprtf.striprtf import rtf_to_text
-#from gensim.models import Doc2Vec
-#from gensim.models.doc2vec import TaggedDocument
-#import os
-#from scipy.cluster.hierarchy import linkage
-#import matplotlib.pyplot as plt
-#import model_file
-#import data
-#import vectors
-'''
-tagged_data = data.tagged_data
-doc = data.doc
-'''
 
 def clustering(vectors):
     # perform DBSCAN clustering
