@@ -4,12 +4,6 @@ import re
 from striprtf.striprtf import rtf_to_text
 from gensim.models.doc2vec import TaggedDocument
 import os
-#from gensim.models import Doc2Vec
-#import numpy as np
-#from scipy.cluster.hierarchy import linkage
-#import matplotlib.pyplot as plt
-#from sklearn.cluster import DBSCAN
-#import input 
 
 tagged_data = []
 doc = []
