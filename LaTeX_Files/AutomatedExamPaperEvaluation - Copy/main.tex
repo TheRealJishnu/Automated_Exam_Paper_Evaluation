@@ -1,0 +1,304 @@
+% Original Authors: Akshay Kumar, Aman Thakur, Aniket Kumar, Prashant Yelpale, Sonu Aswar, Rakesh Kumar, Ravi Kumar, Jayaprakash katual 
+% Deprartment of Electrical Engineering NIT Hamirpur
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[oneside,12pt,a4paper]{report}
+
+% Use Packages here>>>>>>>>>>>>>>>>>>>>>>>>>>,...................................
+%\usepackage[utf8]{inputenc}
+\usepackage{amsmath,mathtools,amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage{comment}
+\usepackage{diagbox}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{boldline}
+\usepackage{lipsum}
+%\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{adjustbox}
+\usepackage[absolute,overlay]{textpos} % For absolute positioning
+\usepackage{setspace} % for line spacing
+\usepackage{float} % for H placement option
+\usepackage{caption} % for caption customization
+\usepackage{array} % for table cell alignment
+\usepackage{enumitem} % for customizing itemize
+\usepackage{lscape}
+\usepackage[inkscapelatex=false]{svg}
+\usepackage{cite}
+\usepackage{enumitem}
+\usepackage{svg}
+\usepackage{subcaption}
+\usepackage{textcomp}
+\usepackage{siunitx}
+\usepackage{algpseudocode}
+%\usepackage[left=3.8cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+\usepackage{booktabs}
+%\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=25 mm,bmargin=25 mm,lmargin=38mm,rmargin=25 mm}
+\usepackage{authblk,lineno,hyperref,color,lscape,url,sectsty}
+\usepackage[autostyle]{csquotes}
+\usepackage[labelfont=bf]{caption}
+\usepackage{pdfpages}
+\hypersetup{hidelinks}
+\usepackage{array,float,multirow,graphicx,setspace,cleveref,cite,url,titlesec,tocloft}
+%\usepackage{mathrsfs}
+\usepackage{booktabs}
+\usepackage{chngcntr,rotating,pdflscape,enumitem,algpseudocode,algorithm,subcaption}
+\usepackage{calligra}
+%\sisetup{output-decimal-marker={.}, group-separator={,}}
+\numberwithin{equation}{section}
+%\titleformat{name=\chapter, numberless}[display]
+% Title format for chapter numbers
+\titleformat{\chapter}[display]
+{\normalfont\fontsize{22}{26}\selectfont\filright\bfseries\color{black}} % Formatting for chapter number
+{\textit{\chaptertitlename\ \thechapter}} % Entire Chapter number format (italicized)
+{2.5cm}
+{\bfseries} % Bold format for chapter number
+\titlespacing*{\chapter}{0pt}{5cm}{2.5cm}
+% Title format for chapter titles
+\titleformat{name=\chapter, numberless}[display]
+{\normalfont\fontsize{22}{26}\selectfont\filright\bfseries\color{black}} % Formatting for chapter title without number
+{}% Empty format for chapter number
+{0.5cm}
+{\fontsize{22}{26}\selectfont\bfseries} % Bold format for chapter title
+\titlespacing*{\section}{0pt}{2.5cm}{0.5cm} 
+
+% Title format for section
+\titleformat{\section}
+{\normalfont\fontsize{18}{21.6}\selectfont\bfseries}
+{\thesection}
+{1em}
+{}
+
+% Title format for subsection
+\titleformat{\subsection}
+{\normalfont\fontsize{14}{16.8}\selectfont\bfseries}
+{\thesubsection}
+{1em}
+{}
+
+% Title format for subsubsection
+\titleformat{\subsubsection}
+{\normalfont\fontsize{12}{14.4}\selectfont\bfseries}
+{\thesubsubsection}
+{1em}
+{}
+
+% Adjust spacing
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % One line spacing before section
+\titlespacing*{\subsection}{0pt}{\baselineskip}{\baselineskip} % One line spacing before subsection
+\titlespacing*{\subsubsection}{0pt}{\baselineskip}{\baselineskip} % One line spacing before subsubsection
+
+%Table and Figure Caption
+\captionsetup[table]{labelfont=bf, font=small}
+\captionsetup[figure]{labelfont=bf, font=small}
+
+
+% Title format
+ % Empty format for chapter number, as it's already italicized
+
+% Title format for chapter titles
+%\titleformat{name=\chapter, numberless}[display]
+%{\normalfont\fontsize{22}{26}\selectfont\filright\bfseries\color{black}} % Formatting for chapter title without number
+%{} % Empty format for chapter number
+%{2.5cm}
+%{\fontsize{22}{26}\selectfont\bfseries} % Title format
+
+\renewcommand\cftaftertoctitle{\par\noindent\rule{\textwidth}{2pt}\par\vskip-3.5em}
+\renewcommand\cftafterloftitle{\par\noindent\rule{\textwidth}{2pt}\par\vskip-3.0em}
+\renewcommand\cftafterlottitle{\par\noindent\rule{\textwidth}{2pt}\par\vskip-3.0em}
+
+\usepackage{polyglossia}
+\setmainlanguage{english}
+% \setotherlanguages{hindi} %% or other languages
+% \newfontfamily\devanagarifont[Script=Devanagari]{Noto Serif Devanagari}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+% \newcommand\BackgroundPic{
+% 	\put(13,0){
+% 		\parbox[b][\paperheight]{\paperwidth}{%
+% 			\vfill
+% 			\centering
+% 			{\includegraphics[width=0.6\paperwidth,height=0.6\paperheight,keepaspectratio]{IMAGE/nithwatermark.jpg}}%
+% 			\vfill
+% }}}
+%\fancyhf{}
+%\fancyhead[C]{Header Content}  % Customize your header
+%\renewcommand{\headrulewidth}{0pt}  % No line under the header
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cover page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{coverpage}
+% \cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UNCOMMENT
+\pagenumbering{roman}
+\input{titlepage.tex}                    % title page
+\cleardoublepage                         % for blank page
+
+
+
+% new content
+\newgeometry{tmargin=.1cm, lmargin=3.8cm, rmargin=2.5cm, bmargin=2.5cm}
+
+\cleardoublepage
+\thispagestyle{empty}  % Optional: remove page number from TOC page
+\begin{flushright}
+\vspace{-5cm}
+\addcontentsline{toc}{chapter}{Contents}
+\tableofcontents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{4}
+
+\cleardoublepage
+\end{flushright}
+\restoregeometry  % Restore the original geometry for the rest of the document
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Certificate page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UNCOMMENT
+% \AddToShipoutPicture{\BackgroundPic} % watermark start
+\addcontentsline{toc}{chapter}{Certificate}
+\input{certificate.tex}
+\clearpage
+% \ClearShipoutPicture % watermark end
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Acknowledgment %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %UNCOMMENT
+ \addcontentsline{toc}{chapter}{Acknowledgements}
+\input{acknowledgment.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Abstract page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{Abstract}
+%\vspace*{1.26cm}
+\input{abstract.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table of contents %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% previous table of contents
+%\begin{flushright}
+ %   \addcontentsline{toc}{chapter}{Contents}
+  %  \tableofcontents
+   % \setcounter{secnumdepth}{3}
+    %\setcounter{tocdepth}{
+%\end{flushright}
+%\cleardoublepage
+% \newgeometry{tmargin=1.1cm, lmargin=3.8cm, rmargin=2.5cm, bmargin=2.5cm}
+
+% \cleardoublepage
+% \thispagestyle{empty}  % Optional: remove page number from TOC page
+% \begin{flushright}
+% \addcontentsline{toc}{chapter}{Contents}
+% \tableofcontents
+% \setcounter{secnumdepth}{3}
+% \setcounter{tocdepth}{4}
+
+% \cleardoublepage
+% \end{flushright}
+% \restoregeometry  % Restore the original geometry for the rest of the document
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table of figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newgeometry{tmargin=0cm, lmargin=3.8cm, rmargin=2.5cm, bmargin=2.5cm}
+%\begin{flushright}
+%\addcontentsline{toc}{chapter}{List of Figures}
+%\listoffigures
+%\end{flushright}
+%\restoregeometry
+%\cleardoublepage
+\newgeometry{tmargin=1.1cm, lmargin=3.8cm, rmargin=2.5cm, bmargin=2.5cm}
+\begin{flushright}
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\end{flushright}
+\restoregeometry
+\cleardoublepage
+%\begin{flushright}
+ %   \addcontentsline{toc}{chapter}{List of Figures}
+  %  \listoffigures
+%\end{flushright}
+%\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table of tables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{flushright}
+%	\addcontentsline{toc}{chapter}{List of Tables}
+%	\listoftables
+%\end{flushright}
+%\cleardoublepage
+% \newgeometry{tmargin=1.1cm, lmargin=3.8cm, rmargin=2.5cm, bmargin=2.5cm}
+% \begin{flushright}
+% \addcontentsline{toc}{chapter}{List of Tables}
+% \listoftables
+% \end{flushright}
+% \restoregeometry
+% \cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table of Abbreviations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \addcontentsline{toc}{chapter}{List of Abbreviations}
+% \input{LOA.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table of symbols %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\addcontentsline{toc}{chapter}{List of Symbols}
+%\input{LOS.tex}
+%\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapters 1-7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+%\renewcommand\thesubsubsection{\thesubsection.\Alph{subsubsection}}
+\renewcommand\thesubsubsection{\Alph{subsubsection}.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter1.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter2.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter3.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter4.tex}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapter-5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter5.tex}
+\cleardoublepage	
+% Add more chapters here>>>>>>>>>>>>>>>>>>>>>...........
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom settings for List of Publications and References
+\titleformat{\chapter}[display]
+{\normalfont\fontsize{18}{21.6}\selectfont\bfseries\filright\color{black}}
+{} % No prefix for the title
+{2.5cm}
+{\vspace{2.5cm}} % Title starts after 2.5 cm from the top of the page
+\titlespacing*{\chapter}{0pt}{-42.5pt}{2cm} % Adjusted vertical spacing before and after title
+
+    %\addcontentsline{toc}{chapter}{List of Publications} % Add the bibliography to the table of contents
+    %\renewcommand{\bibname}{List of Publications} % Set the heading to "References"
+    %\bibliography{listofpublications} % Specify the name of your .bib file
+    %\bibliographystyle{IEEEtran} % Specify the bibliography style
+\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Publications}
+\input{listofpublications}
+\cleardoublepage
+
+\titleformat{\chapter}[display]
+{\normalfont\fontsize{18}{21.6}\selectfont\bfseries\filright\color{black}}
+{} % No prefix for the title
+{2.5cm}
+{\vspace{2.5cm}} % Title starts after 2.5 cm from the top of the page
+\titlespacing*{\chapter}{0pt}{-42.5pt}{0.35cm} % Adjusted vertical spacing before and after title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% References %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+    \addcontentsline{toc}{chapter}{References} % Add the bibliography to the table of contents
+    \renewcommand{\bibname}{References} % Set the heading to "References"
+    \bibliography{References} % Specify the name of your .bib file
+    \bibliographystyle{unsrt} % Specify the bibliography style
+    \cleardoublepage
+
+\restoregeometry % Restores the original geometry for the rest of the document
+\cleardoublepage
+\end{document}

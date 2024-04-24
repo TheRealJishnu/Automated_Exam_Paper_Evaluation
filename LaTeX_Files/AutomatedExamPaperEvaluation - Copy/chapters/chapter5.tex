@@ -1,0 +1,51 @@
+\chapter{Conclusions and Future Scope }
+\label{C5} %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusions}
+\par
+In the project we have tried to automate the exam paper evaluation process by using various Natual Language Processing and Machine Learnign 
+techniques. In this process we first tried to use various OCRs to generate text data from handwritten exam paper data.
+But the accuracy was not satisfactory. So we have used typed data for the evaluation process.
+Then we tried various types of word and sentence embeddings to use in our project. We tried pretrained Bert and Scibert models first,
+but their outcome were not satisfactory at all. Word2Vec was an option but it was not able to capture the context of the words properly, 
+so we used an extension of Word2Vec which is Doc2Vec. We trained the Doc2Vec model on a subject text book that was the same as the exam topic. 
+We have used Doc2Vec to generate document vectors from the text data and calculated Cosine Similarity with 
+the ideal answer. Then the Similarity was multiplied with the total marks to get the marks for that answer script.
+Then we compared the predicted marks with the actual marks and got a comparable result. We observed that although not 
+totally accurate, the model was able to predict the marks of the exam papers with a good accuracy.
+Although sometimes it showed some irregularity, like even if a answer script should get 0 marks, the model was giving some marks.
+And some random answers got different marks, most of the time the model gave more marks than necessary and rarely less marks.
+So although we got more or less good results, it is not perfect, not yet ready to replace human evaluation processs.
+More research is needed to make the model more accurate and reliable. We also simplified the process by ignoring
+any question with diagram, or mathematical equation. So there is a large scope for further improvement in this topic.
+
+
+\section{Limitation}
+\par
+The system demonstrates efficiency in evaluating broad-answer type questions. However, the system has certain limitations which may obstruct implementation in real-time scenarios.
+\par 
+As we have discussed earlier, the lack of an efficient Handwritten text recognizer (HTR) is a problem that is restricting this system's ability to achieve its goals. As of now, the system only performs the text analysis and grading tasks. With a powerful HTR, this system could automate the whole process. It could read the answer scripts from any scanner or similar device and then pass through the rest of the process, generating marks for every answer. 
+\par 
+Due to the lack of efficient handwriting recognition technology, it is difficult to get a question-and-answer set that could be used in this system. Thus, the answers have to be typed in manually from the original copies to be used in the system. We believe that with the emergence of an efficient handwriting recognition system, this problem could also be countered. However, in any computerized exam where broad-answer types of questions are asked, this system would work perfectly fine. 
+\par 
+Poor performance of Mathematical expressions. Any type of mathematical expression is removed from the text during the processing steps. This will lead to the inability of any computation-related task. Broad mathematical answers are not written serially and often contain a lot of white spaces. A system might face difficulties in handling those white spaces and understanding the sequence of steps in the sum and will end up evaluating wrongly. For these drawbacks, we have omitted the scope of evaluating any mathematical question by the system.
+\par 
+This system works using document vectors which take every document and plot it in a multi-dimensional space as a vector. Document vectors are based on word embeddings where every word carries a value. So, if anyone writes nothing but some specific words in an answer, it will still assign some marks for that answer, even if that is not correct. Though the amount of marks will be very low, it could not be negligible.
+\par 
+These limitations underscore the need for research and development to enhance the system's capabilities and address its shortcomings. Despite these challenges, the system offers significant potential for automating the evaluation of broad-answer type questions in various educational settings.
+
+\section{Future Scope}
+\par
+The system discussed here has showcased great results. However, the method used here is quite elementary. It has a lot of future scope. Currently, the system does not work on mathematical expressions due to certain limitations, discussed in the previous section. However, this problem could be solved using more complex techniques or procedures. The removal of white spaces, and maintaining the correct sequence of steps in a mathematics answer will lead to more efficient handling of sums.  \\
+\par
+With the advancement in handwritten text recognition technology, the system will be able to automate the task entirely. An effective HTR will read the text from any image or PDF file, uploaded by using a scanner or similar device.  \\
+\par 
+Additionally, there is scope for enhancing the accuracy of the system through the implementation of various preprocessing techniques and the utilization of more efficient word embeddings. By optimizing these components, the system could achieve greater accuracy in evaluating answer scripts and providing meaningful feedback to students.   \\
+\par 
+In summary, the future scope of this research project encompasses the refinement of mathematical expression handling, leveraging advancements in HTR technology for automation, and improving overall accuracy through enhanced preprocessing techniques and word embeddings. These advancements have the potential to significantly enhance the effectiveness and usability of the automated answer script evaluation system in educational settings.
+
+% \begin{enumerate}[label=(\roman*)]
+%     \item More detailed high-resolution thermal images can be implemented for better enhancement of important features.
+%     \item Other updated deep-learning algorithms can be implemented for better flaws identification.
+%     \item For improvement of the performance of the fusion algorithm with optimization techniques, other optimizers can be utilized.
+% \end{enumerate}

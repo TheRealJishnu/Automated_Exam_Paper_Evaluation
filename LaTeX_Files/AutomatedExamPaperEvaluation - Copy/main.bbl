@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding, 2019.
+
+\bibitem{scibert}
+Iz~Beltagy, Kyle Lo, and Arman Cohan.
+\newblock Scibert: Pretrained language model for scientific text.
+\newblock In {\em EMNLP}, 2019.
+
+\bibitem{word2vec}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock Efficient estimation of word representations in vector space, 2013.
+
+\bibitem{doc2vec}
+Quoc~V. Le and Tomas Mikolov.
+\newblock Distributed representations of sentences and documents, 2014.
+
+\bibitem{p2}
+Quoc~V. Le and Tomas Mikolov.
+\newblock Distributed representations of sentences and documents, 2014.
+
+\bibitem{p1}
+Md~Rahman and Fazlul Siddiqui.
+\newblock Nlp-based automatic answer script evaluation.
+\newblock 4:35--42, 12 2018.
+
+\end{thebibliography}

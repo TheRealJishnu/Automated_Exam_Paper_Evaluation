@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%% CHAPTER - 1 %%%%%%%%%%%%%%%%%%%%\\
+\chapter{Literature Review}
+\label{C2} %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\noindent\rule{\linewidth}{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% CHAPTER - 1 %%%%%%%%%%%%%%%%%%%%\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% \section{Section}
+% \par 
+% \subsection{Subsec}
+
+% \par 
+% \section{Table}
+% \begin{table}[H]
+%     \caption{Table}
+%     \centering
+%     \begin{tabular}{|c|>{\centering\arraybackslash}p{0.7\linewidth}|}
+%     \hline
+%     \textbf{Methods} & \textbf{Limitations} \\ % Bold headings
+%     \hline
+%     Method 1 & 
+%     \begin{itemize}
+%         \item More time-consuming than other methods.
+%         \item Results suffer from subjective judgments of the inspector.
+%     \end{itemize} \\
+%     \hline
+%     Method 2 & 
+%     \begin{itemize}
+%         \item Sensitive to the shape and size of the structure.
+%         \item Needs highly careful attention during the test.
+%         \item Limited to testing distance and the number of surfaces.
+%     \end{itemize} \\
+%     \hline
+%    Method 3 & 
+%     \begin{itemize}
+%         \item Impossible to test on structures that are out of the scanner's line of sight.
+%         \item Implementation cost is high.
+%         \item Sensitive to the environment for setting up of equipment.
+%     \end{itemize} \\
+%     \hline
+%     Method 4 & 
+%     \begin{itemize}
+%         \item Requires certain safety parameters due to hazardous ionising radiation.
+%         \item Two-sided access to the structure is needed.
+%         \item Relatively expensive testing equipment.
+%     \end{itemize} \\
+%     \hline
+%     Method 5 & 
+%     \begin{itemize}
+%         \item Sensitive to environment noises and illuminated conditions.
+%     \end{itemize} \\
+%     \hline
+%     \end{tabular}
+%     \label{tab1}
+% \end{table}
+
+\vspace{-0.75cm}
+\par
+Several different types of word/sentence embedding were studied to understand the context of the text. 
+And then creating a system to evaluate answer scripts accordingly. One of the most famous
+embeddings is BERT \cite{bert}, they used transformers to train the model over a huge corpus to generate
+word embeddings and sentence embeddings. In this model, each word/sentence is represented by a vector of 
+dimension 768. This is the base model. There is another model called SciBERT \cite{scibert},
+which is trained on a huge corpus of scientific writings on \href{https://www.semanticscholar.org}{semanticscholar.org}.
+This works better on scientific text.
+\par
+There is another approach to word embeddings named Word2Vec \cite{word2vec}. This creates word embeddigs 
+with a dimension specified by the user. This has been extended to create a model named Doc2Vec \cite{doc2vec} which can generate 
+sentence embeddings from a corpus of data. This has been the main tool in our project. Research on Paragraph Vector
+has also been done by \cite{p2} which is worth mentioning, they explained use of paragraph vectors in
+Natural Language Processing.
+\par
+Research on automated exam paper evaluation is also done previously by \cite{p1} by detecting and counting 
+keywords and calculating similarity using Jaccard similarity and WMD. 

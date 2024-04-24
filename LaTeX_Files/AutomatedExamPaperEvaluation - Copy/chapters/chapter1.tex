@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%% CHAPTER - 1 %%%%%%%%%%%%%%%%%%%%\\
+
+\chapter{Introduction}
+
+\label{C1} %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\noindent\rule{\linewidth}{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\noindent\rule{\linewidth}{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Introduction}
+\par 
+In the field of education, evaluating student performance via exams is a fundamental component in determining learning outcomes and academic advancement. Conventional techniques for evaluating question papers have long been the norm. These techniques mostly involve manual grading by teachers, which is labor-intensive and prone to human error. However, the field of educational evaluation is undergoing a radical change as a result of the development of digital solutions and technical breakthroughs. By utilising machine learning algorithms, automated question paper evaluation presents a viable substitute for conventional grading techniques, offering potential gains in efficiency, impartiality, and scalability.
+\par
+Automated question paper evaluation systems harness the capabilities of artificial intelligence (AI) to analyze and assess student responses to questions, providing instant feedback and grading. These systems can handle a variety of question types, including multiple-choice, short answer, and essay questions, mimicking human-like assessment with remarkable accuracy. By automating the evaluation process, educators can significantly reduce the time and effort spent on grading, allowing them to focus more on instructional activities and student engagement.
+% \lipsum[1-2] % Insert Lorem Ipsum paragraphs 1 to 2
+% This is just an example line with reference {\cite{R1}}, {\cite{R2}}, {\cite{R3}}, {\cite{R4}}, {\cite{R5}}, {\cite{R6}}.
+% \lipsum[1-2]
+
+
+% \subsection{Subsection Heading}
+% % \begin{figure}[htbp]
+% %     \centering
+% %     \includegraphics[width=0.75\linewidth]{IMAGE/Nith_ee.jpg}
+% %     \caption{Department of Electrical Engineering}
+% %     \label{fig11}
+% % \end{figure}
+% \begin{enumerate}
+%     \item Line 1
+%     \item Line 2
+%     \item Line 3
+% \end{enumerate}
+
+\chapter{Problem Statement \& Objectives}
+
+\section{Problem Statement}
+\par
+The answer script evaluation is a crucial task. A manually done evaluation can be biased. It depends on various factors like the mental condition of the examiner or the relationship between the student and the examiner. It is also a hectic and time-consuming task. In this article, a natural language processing-based method is discussed that could do automatic answer script evaluation. Our experiment consists of vectorization of answer text, clustering the vectors, and measuring similarity (Cosine). \\
+Automatic evaluation of answer scripts has been found very useful in our experiments, and often the assigned marks are the same as manually scored marks. \\
+\textit{Keywords -}  Automatic evaluation, NLP, Similarity measure, Clustering, Marks scoring
+
+\section{Problem Description}
+% \par
+Answer script evaluation is a very important task. It is not only useful to assess the academic prowess of a student but it also gives insights into various characteristics of the student including time management ability, creativity, communication skills, etc. One of the most important types of questions that the students answer is the broad-answer type questions. Unlike Multiple Choice Questions (M.C.Q.) and Short-answer type questions that require only correct option(s) and one or two particular words, these questions span at least 4 to 5 lines in answer. The students express their opinions in response to the question in a textual way. However, it is a tedious job and might also be erroneous based on the condition of the evaluator. All students possess different thoughts, vocabulary, and ways of writing. All the answers should be different from each other, assuming that there is no malpractice. And the evaluator has to extract the main idea behind the answer from those lines to check if that is correct or not. Different answers possess different fractions of correctness. \\
+% \par
+
+The automation of this task will be helpful in numerous ways. It will help the institutions or exam-conducting bodies to evaluate a huge number of answers effortlessly and efficiently. The M.C.Q. type questions have gained popularity due to their convenient evaluation process. Most of the competitive exams have changed their format of questions to M.C.Q. type only and prefer not to include broad-answer type questions due to its hectic evaluation process. With automation, this problem could be solved and thus, broad-answer type questions could also be included in the paper. The evaluation process will be less erroneous and more unbiased if it is automatic. Also, it will be less time-consuming and more efficient. 
+
+\section{Requirements}
+% \par
+The proposed system uses document vectors, which are trained on a carefully curated data corpus pertinent to the subject matter of the examination paper. This corpus may comprise textbooks or scholarly articles available in PDF format, ensuring relevance and coherence with the examination topics. Moreover, a diverse collection of questions and corresponding answers is indispensable for effective system operation. A comprehensive set of answers enhances system performance, enabling robust analysis across a broad spectrum of answer scripts. \\
+% \par
+
+In the development of the system, Python programming language was used. Fundamental Python packages such as NumPy, Scipy, and Matplotlib formed the core of the implementation. Additionally, advanced libraries including NLTK (Natural Language Toolkit), Gensim, and Scikit-Learn were employed to perform specialized tasks. Natural Language Toolkit (NLTK) is a Python library that offers different functionalities for processing texts in the English language. It is used to perform tasks like Stemming, Lemmatization, Stop-word removal, Tagging, Parsing, etc. which are considered fundamental natural language processing tasks. Gensim is another library based on Python and Cython that provides different unsupervised learning models and natural language processing functionalities. Gensim includes models for vectorization of documents like word2vec and doc2vec which are used in our experiment. Scikit-learn is the most popular machine-learning library in Python, across the globe. It offers both supervised and unsupervised learning models to use in the program. \\
+% \par
+
+During the training phase, some '.rtf' files were utilized necessitating the inclusion of the striprtf library. However, this dependency is redundant if standard text files are employed instead of '.rtf' files. 
+
+\section{Aim of the Project}
+\par
+As previously outlined, the primary objective of this project is to develop a system capable of evaluating answer scripts encompassing more than a few lines, to predict a grade for each answer. The ultimate goal is to automate the entire process of answer script evaluation. However, the realization of this objective is impeded by certain limitations inherent to the system. We have divided this system into two major parts. The first part focuses on the conversion of answers written on hard copies (papers) into digital formats, where the implementation of Computer Vision techniques for handwriting recognition is necessary. Despite extensive exploration of available technologies, the current state-of-the-art in handwriting recognition is not sufficiently advanced to accurately decipher handwritten text. Thus, we decided to continue with the other part, which leverages Natural Language Processing techniques. In this article, we are going to discuss this portion elaborately. 
+\par
+This project aims to find a way to automate the evaluation process. To achieve this, the answers are processed through different natural language techniques. After that, they are being vectorized. And finally, they are put into clusters. The analysis of the answers is done based on this clustering. 
+
+% In order to achieve this aim the following objectives have been laid,
+%5\begin{enumerate}[label=(\roman*), align=left] % Use align=left to align the labels to the left
+%    \item Objective 1
+%    \item Objective 2
+%    \item Objective 3
+%    \item Objective 4
+%\end{enumerate}
+% \begin{enumerate}[label=(\roman*), align=left, leftmargin=*, labelsep=*, widest=iii] % Match the settings of the first list
+%     \item Objective 1
+%     \item Objective 2
+%     \item Objective 3
+%     \item Objective 4
+% \end{enumerate}
+
+\section{Structure of the Dissertation}
+The work carried out in this dissertation has been organized into five chapters and an overview of these chapters is given below,\\\\
+\textbf{Chapter 1: Introduction} gives a brief summary of chapter. \\\\
+\textbf{Chapter 2: Problem Statement \& Objectives} discusses the problem statement, requirements, and objectives of the project.\\\\
+\textbf{Chapter 3: Literature Review} centres on a comprehensive review of the literature related to the topic.\\\\
+\textbf{Chapter 4: Methodology} adopted describes the methodology used to solve the problem.\\\\
+\textbf{Chapter 5: Results \& Discussions} chapter concentrates on the findings and simultion results. \\\\
+\textbf{Chapter 6: Conclusions \& Future Scopes} presents a comprehensive summary of the results obtained, along with suggestions for advancing this work.
