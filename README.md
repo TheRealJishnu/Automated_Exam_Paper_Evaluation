@@ -1,4 +1,4 @@
-# Automated_Exam_Paper_Evaluation
+# Automated Exam Paper Evaluation
 by
 
 [**Jishnu Bandyopadhyay**](https://github.com/TheRealJishnu) - *RKMVCC, Rahara*
