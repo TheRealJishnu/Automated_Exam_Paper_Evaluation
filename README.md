@@ -1,3 +1,6 @@
 # Automated_Exam_Paper_Evaluation
-### Indian Institute of Engineering Science and Technology
-Guide : **Dr. Asit Kumar Das**
+by
+**Jishnu Bandyopadhyay** - *RKMVCC, Rahara*
+**Bitan Majumder** - *RKMVCC, Rahara*
+under the guidance of
+**Dr. Asit Kumar Das** - *IIEST, Shibpur*
