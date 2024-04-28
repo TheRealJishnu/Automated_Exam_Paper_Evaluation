@@ -1,9 +1,10 @@
 # Automated_Exam_Paper_Evaluation
 by
 
-**Jishnu Bandyopadhyay** - *RKMVCC, Rahara*
+[**Jishnu Bandyopadhyay**](https://github.com/TheRealJishnu) - *RKMVCC, Rahara*
 
-**Bitan Majumder** - *RKMVCC, Rahara*
+[**Bitan Majumder**](https://github.com/bitanM) - *RKMVCC, Rahara*
+
 
 under the guidance of
 
