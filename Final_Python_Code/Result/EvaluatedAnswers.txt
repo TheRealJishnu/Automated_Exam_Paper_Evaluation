@@ -1,0 +1,110 @@
+	---------- Question 5 ----------
+Marks for Q5S1 : 2.78	Outlier
+Marks for Q5S2 : 3.91	
+Marks for Q5S3 : 3.91	
+Marks for Q5S4 : 3.91	
+Marks for Q5S5 : 4.5	Outlier
+Marks for Q5S6 : 3.73	
+Marks for Q5S7 : 2.91	Outlier
+Marks for Q5S8 : 3.91	
+Marks for Q5S9 : 3.11	Outlier
+Marks for Q5S10 : 2.88	Outlier
+Marks for Q5S11 : 3.91	
+Marks for Q5S12 : 3.91	
+Marks for Q5S13 : 3.17	
+Marks for Q5S14 : 3.91	
+Marks for Q5S15 : 3.17	
+Marks for Q5S16 : 3.17	
+Marks for Q5S17 : 3.17	
+Marks for Q5S18 : 3.17	
+Marks for Q5S19 : 3.17	
+Marks for Q5S20 : 3.17	
+Marks for Q5S21 : 3.91	
+Marks for Q5S22 : 2.98	Outlier
+Marks for Q5S23 : 3.91	
+Marks for Q5S24 : 3.91	
+Marks for Q5S25 : 3.3	Outlier
+Marks for Q5S26 : 3.91	
+Marks for Q5S27 : 3.41	Outlier
+Marks for Q5S28 : 3.91	
+Marks for Q5S29 : 3.91	
+Marks for Q5S30 : 3.91	
+Marks for Q5S31 : 3.73	
+Marks for Q5S32 : 3.73	
+Marks for Q5S33 : 3.73	
+Marks for Q5S34 : 3.73	
+Marks for Q5S35 : 3.73	
+Marks for Q5S36 : 3.73	
+Marks for Q5S37 : 3.91	
+Marks for Q5S38 : 3.91	
+Marks for Q5S39 : 3.91	
+Marks for Q5S40 : 3.91	
+Marks for Q5S41 : 3.91	
+Marks for Q5S42 : 3.91	
+Marks for Q5S43 : 3.91	
+Marks for Q5S44 : 3.91	
+Marks for Q5S45 : 3.91	
+Marks for Q5S46 : 3.91	
+Marks for Q5S47 : 3.91	
+Marks for Q5S48 : 3.91	
+Marks for Q5S49 : 3.91	
+Marks for Q5S50 : 3.91	
+Marks for Q5S51 : 3.91	
+Marks for Q5S52 : 3.91	
+Marks for Q5S53 : 3.91	
+Marks for Q5S54 : 3.91	
+Marks for Q5S55 : 3.91	
+Marks for Q5S56 : 3.91	
+Marks for Q5S57 : 3.91	
+Marks for Q5S58 : 3.91	
+Marks for Q5S59 : 3.91	
+Marks for Q5S60 : 3.91	
+Marks for Q5S61 : 3.91	
+Marks for Q5S62 : 3.91	
+Marks for Q5S63 : 3.91	
+Marks for Q5S64 : 3.91	
+Marks for Q5S65 : 3.91	
+Marks for Q5S66 : 3.91	
+Marks for Q5S67 : 3.91	
+Marks for Q5S68 : 3.91	
+Marks for Q5S69 : 3.91	
+Marks for Q5S70 : 3.91	
+Marks for Q5S71 : 3.91	
+Marks for Q5S72 : 3.91	
+Marks for Q5S73 : 3.91	
+Marks for Q5S74 : 3.91	
+Marks for Q5S75 : 3.91	
+Marks for Q5S76 : 3.91	
+Marks for Q5S77 : 3.91	
+Marks for Q5S78 : 3.91	
+Marks for Q5S79 : 3.91	
+Marks for Q5S80 : 3.91	
+Marks for Q5S81 : 3.91	
+Marks for Q5S82 : 3.91	
+Marks for Q5S83 : 3.91	
+Marks for Q5S84 : 3.91	
+Marks for Q5S85 : 3.91	
+Marks for Q5S86 : 3.91	
+Marks for Q5S87 : 3.91	
+Marks for Q5S88 : 3.91	
+Marks for Q5S89 : 3.91	
+Marks for Q5S90 : 3.91	
+Marks for Q5S91 : 3.91	
+Marks for Q5S92 : 3.91	
+Marks for Q5S93 : 3.91	
+Marks for Q5S94 : 3.91	
+Marks for Q5S95 : 3.91	
+Marks for Q5S96 : 3.91	
+Marks for Q5S97 : 3.91	
+Marks for Q5S98 : 3.91	
+Marks for Q5S99 : 3.91	
+Marks for Q5S100 : 3.91	
+Marks for Q5S101 : 3.91	
+Marks for Q5S102 : 3.91	
+Marks for Q5S103 : 3.91	
+Marks for Q5S104 : 3.91	
+Marks for Q5S105 : 3.66	Outlier
+Marks for Q5S106 : 3.75	Outlier
+Marks for Q5S107 : 3.89	Outlier
+Marks for Q5S108 : 3.91	
+
