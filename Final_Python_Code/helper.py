@@ -2,7 +2,7 @@
 """
 Created on Thu Jan 18 00:59:04 2024
 
-@author: there
+@author: t
 """
 
 import numpy as np
