@@ -41,67 +41,6 @@ print("Your Result is saved in the text file named EvaluatedAnswers.txt")
 
 
 # PLOT
-real = [hp.normalize(e) for e in mark_list]
-# print(mark_list)
-# PLOT END
-# if __name__ == "__main__":
-#     main()
-#q1
-# real = [0, 3, 2.5, 3, 2, 3, 1.5, 2.5, 2.5, 3,   # 0
-#         2.5, 1.5, 2, 2, 1.5, 2, 1.5, 3, 2.5, 3, # 1
-#         2.5, 2.5, 3, 3, 2, 3, 3, 2.5, 3, 2.5,   # 2
-#         2.5, 3, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5,  # 3
-#         2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5,   #4
-#         2.5, 2.5, 2, 2, 2, 2, 2, 2.5, 3, 2.5,         #5
-#         3, 3, 3, 3, 3, 3, 3, 3, 2.5, 3,               # 6
-#         3, 3, 3, 3, 3, 3, 3, 3, 3, 3,             # 7
-#         3, 3, 0.5, 2, 2, 1.5, 1.5, 1.5, 1.5, 1.5,   # 8
-#         1, 1.5, 2, 2, 2, 1.5, 2, 2, 1.5, 2,         # 9
-#         2, 1.5, 1.5, 1.5, 0]                        # 10
-
-#q2
-# real[1] = 1
-# real[14] = 0.5
-# real[24] = 1
-# real[31] = 2
-# real[25] = 0.5
-# real[109] = 0
-# real[102] = 0
-# real[77] = 2
-# real[58] = 0.5
-# mark_list[21] = 2.5
-# mark_list[26] = 2
-# mark_list[42] = 2.3
-
-#q3
-# real[6] = 0.5
-# real[10] = 0
-# mark_list[36] = 2.4
-# real[46] = 1
-# real[21] = 0
-# real[22] = 2
-
-#q4
-# mark_list[113] = 3.5
-# mark_list[114] = 4
-# real[81] = real[82] = real[83] = 4
-# real[10] = 3.5
-# real[9] = 2
-# real[35] = 1
-# mark_list[22] = 3.7
-# mark_list[23] = 3.85
-
-#q5
-for i in range(51, 66):
-    mark_list[i] = 4.32
-    
-for i in range(5, 15):
-    mark_list[i] = 4.12
-    
-for i in range(55, 61):
-    real[i] = 3.5
-
-real[77] = real[85] = 3
 
 
 
